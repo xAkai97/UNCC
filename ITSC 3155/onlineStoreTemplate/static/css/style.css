@@ -1,0 +1,541 @@
+#index_buttons {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 250px;
+    height: 125px;
+}
+
+#login_button {
+    background-color: #4963f4;
+    border-color: #ccc;
+    color: rgb(236, 236, 236);
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#info_row {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 320px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+#register_button {
+    background-color: #444654;
+    border-color: #ccc;
+    color: rgb(236, 236, 236);
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#info_form_group {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#product_card {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 302px;
+    background-color: #cac2c2;
+    border: 1px solid rgb(178, 178, 178);
+    height: 620px;
+}
+
+.product_card-img {
+    width: 300px;
+    height: 300px;
+}
+
+.product_card-title {
+    /* Centered */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product_card-text {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    height: 40px;
+}
+
+.product_card-price {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#add_to_cart_button {
+    background-color: #49f4d8;
+    border-color: #ccc;
+    color: rgb(32, 30, 30);
+    width: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#count_row {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    background-color: #fff9f9;
+    border: 1px solid rgb(178, 178, 178);
+    height: 30px;
+
+}
+
+.quantity {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#checkout_button {
+    background-color: #49f4d8;
+    border-color: #ccc;
+    color: rgb(32, 30, 30);
+    width: 220px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* MH Review Section Styling */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.full-boxer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-box:hover {
+    margin-top: 5px;
+}
+
+.comment-box {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.name strong {
+    color: black;
+    font-size: 18px;
+}
+
+.name span {
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment p {
+    color: black;
+}
+
+/* End of MH Review Section Styling */
+
+/* MH Form Section Styling */
+.jersey-form-body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.jersey-form {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(48, 52, 63, 0.8);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input-box:nth-child(2n) {
+    justify-content: end;
+}
+
+.user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label {
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input-box input {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.gender-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.gender-category {
+    margin: 15px 0;
+    color: white;
+}
+
+.gender-category label {
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input {
+    cursor: pointer;
+}
+
+.form-submit-btn {
+    margin-top: 40px;
+}
+
+.form-submit-btn input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgba(106, 0, 244, 0.7);
+}
+
+.form-submit-btn input:hover {
+    background: rgba(137, 0, 242, 0.7);
+    color: rgb(255, 255, 255);
+}
+
+/* End of MH Form Section Styling */
+
+/* DW Styles */
+.size {
+    margin-left: 45px;
+}
+
+.socialmediashare {
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.product_stocktext {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product_stock {
+    color: red;
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#chat-type {
+    margin-top: 200px;
+    width: 80%;
+    float: right;
+}
+
+#chat-box {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.bubble {
+    --r: 25px;
+    /* the radius */
+    --t: 30px;
+    /* the size of the tail */
+
+    max-width: 300px;
+    padding: calc(2*var(--r)/3);
+    -webkit-mask:
+        radial-gradient(var(--t) at var(--_d) 0, #0000 98%, #000 102%) var(--_d) 100%/calc(100% - var(--r)) var(--t) no-repeat,
+        conic-gradient(at var(--r) var(--r), #000 75%, #0000 0) calc(var(--r)/-2) calc(var(--r)/-2) padding-box,
+        radial-gradient(50% 50%, #000 98%, #0000 101%) 0 0/var(--r) var(--r) space padding-box;
+    background: linear-gradient(135deg, #FE6D00, #1384C5) border-box;
+    color: #fff;
+}
+
+.left {
+    --_d: 0%;
+    border-left: var(--t) solid #0000;
+    margin-right: var(--t);
+    place-self: start;
+    float: left;
+}
+
+.right {
+    --_d: 100%;
+    border-right: var(--t) solid #0000;
+    margin-left: var(--t);
+    place-self: end;
+    float: right;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+}
+
+/* End of DW Styles */
+
+/* HR CSS styles for the checkout page */
+#wishlist_button {
+    background-color: #4963f4;
+    border-color: #ccc;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#products_page {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    font-size: 18px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Use flexbox for the checkbox layout */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Increase the size of the checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+/* Customize the appearance of the checkbox */
+input[type="checkbox"]::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: #007bff;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* HR CSS styles for payment gateway page */
+.payment-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+
+.payment-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    display: block;
+    /* Stack the input elements vertically */
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn-pay {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-pay:hover {
+    background-color: #00b30c;
+}
+
+
+/* End of HR Styling */

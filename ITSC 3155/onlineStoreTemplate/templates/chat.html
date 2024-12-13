@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="Contact"">
+    <div class="col-md-12">
+        <h3>Support</h3>
+        <hr>
+        <div id ="bold">Email: </div><div id ="link">**********@gmail.com</div>
+        <hr>
+        <div id ="bold">Phone: </div><div id ="link">***-***-****</div>
+        <hr>
+        <h3>Chat</h3>
+        <hr>
+        <div id="chat-box">
+            <!-- The chat messages will be displayed here -->
+            
+            <div class="bubble left">Hi!, How can I help you?</div>
+
+            <div class="bubble right">Contact Support</div>
+
+            <div class="bubble left"> Ok!, connecting you with a Support Agent...... </div>
+            
+            <div id="chat-type"><hr>
+                <input type="text" name="message" placeholder="Enter your message">
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+{% endblock %}

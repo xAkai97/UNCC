@@ -1,0 +1,20 @@
+@startuml Customer_Support
+left to right direction
+actor Customer_Support
+rectangle "System" as system {
+  (End User Sessions)
+  (Handle Transactions)
+  (View Customer Cart)
+  (Manage Inventory)
+  (View Order History)
+  (Cancel Order)
+  (Customer Chat Support)
+}
+Customer_Support --> (End User Sessions)
+Customer_Support --> (Handle Transactions)
+Customer_Support --> (View Customer Cart)
+Customer_Support --> (Manage Inventory)
+Customer_Support --> (View Order History)
+Customer_Support --> (Cancel Order)
+Customer_Support --> (Customer Chat Support)
+@enduml

@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row" id="products_page">
+    <div class="col-md-12">
+        <h3>Your Order</h3>
+        <hr>
+        <div class="order-detalis">
+            <p> Total Cost:{{ total_cost }} </p>
+        </div>
+        <div class="row">
+            <form action="/payment" method="post">
+                <div class="checkbox-container">
+                    <label for="gift_packaging">Gift Packaging:</label>
+                    <input type="checkbox" name="gift_packaging" id="gift_packaging">
+                </div>
+                <br>
+                <input type="submit" value="Proceed to Checkout">
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

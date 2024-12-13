@@ -1,0 +1,193 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row" id="products_page">
+    <div class="col-md-12">
+        <h3>Products</h3>
+        <hr>
+        <div class="row">
+            <form action="/checkout" method="post">
+                <div class="form-group">
+                    <div class="row">
+                        {% for product in products %}
+                        <div class="col-md-4">
+                            <div class="product_card" id="product_card">
+                                <img src="{{ product.image_url }}" class="product_card-img" alt="...">
+                                <div class="product_card-body">
+                                    <h5 class="product_card-title">{{ product.item_name }}</h5>
+                                    <p class="product_card-text">{{ product.info }}</p>
+                                    <p class="product_card-price">${{ product.price }}</p>
+                                    <div class="size">
+                                        <select name="size" id="size">
+                                            <option value="">Please choose a size</option>
+                                            <option value="XL">X-Large</option>
+                                            <option value="L">Large</option>
+                                            <option value="M">Medium</option>
+                                            <option value="S">Small</option>
+                                            <option value="XS">X-Small</option>
+                                        </select>
+                                    </div>
+                                    <p class="product_stocktext">In Stock:&nbsp;<span class="product_stock">{{
+                                            product.stock }}&ensp;</span></p>
+                                    <input type="number" class="quantity" id={{product.id}} name={{product.id}}
+                                        placeholder="0">
+                                    <button type="button" class="btn btn-secondary wishlist-button"
+                                        data-product-id="{{product.id}}">Add to Wishlist</button>
+
+
+                                    <p class="product_card-review">{{ product.info }}</p> 
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="index_buttons">
+                        <button type="submit" class="btn btn-primary" id="checkout_button">Order</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="reviews">
+            <div class="full-boxer">
+                <div class="comment-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="../static/images/review1.JPG">
+                            </div>
+                            <div class="name">
+                                <strong>Miguel Hernandez</strong>
+                                <span>@IronsideGames</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            Highly recommend buying a jersey from these guys! Recieved a 20% coupon at the
+                            checkout as an added bonus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="comment-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="../static/images/review2.JPG">
+                            </div>
+                            <div class="name">
+                                <strong>Chris Harden</strong>
+                                <span>@Gub</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            Jersey was meh, in my opinion. Unfortunately, I received
+                            a size smaller jersey than what I ordered.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="comment-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="../static/images/review4.JPG">
+                            </div>
+                            <div class="name">
+                                <strong>Luis Martinez</strong>
+                                <span>@JesusPlantano</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            My friends and I placed an order for some jerseys to take
+                            to the big game. They arrived right on time with no issues. GO INTER MIAMI!!!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="comment-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="../static/images/review3.JPG">
+                            </div>
+                            <div class="name">
+                                <strong>Cole Overstreet</strong>
+                                <span>@AppleDude</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I placed an order for a jersey with my girlfriend's favorite team and had
+                            her name printed on the back. She LOVED it! I'm so happy this site offers
+                            gift sending options.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jersey-form-body">
+            <div class="jersey-form">
+                <h6 class="form-title">Sign Up for a Chance to Win a Free Jersey!</h6>
+                <form action="/raffle" method="post">
+                    <div class="main-user-info">
+                        <div class="user-input-box">
+                            <label for="nameJersey">Name on jersey</label>
+                            <input type="text" id="nameJersey" name="nameJersey" placeholder="Enter Name for Jersey" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="team">Team</label>
+                            <input type="text" id="team" name="team" placeholder="Enter Team" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="jerseyNumber">Jersey Number</label>
+                            <input type="number" id="jerseyNumber" name="jerseyNumber"
+                                placeholder="Enter a Number for Jersey" />
+                        </div>
+                        <div class="user-input-box">
+                            <label for="size">Size</label>
+                            <input type="text" id="size" name="size" placeholder="Enter a Size for Jersey" />
+                        </div>
+                    </div>
+                    <div class="gender-details-box">
+                        <span class="gender-title">Gender</span>
+                        <div class="gender-category">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="other" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-submit-btn">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const wishlistButtons = document.querySelectorAll(".wishlist-button");
+
+        wishlistButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const productId = button.getAttribute("data-product-id");
+                // Redirect to the wishlist page with the selected product's ID
+                window.location.href = `/wishlist?product=${productId}`;
+            });
+        });
+    });
+</script>
+
+{% endblock %}

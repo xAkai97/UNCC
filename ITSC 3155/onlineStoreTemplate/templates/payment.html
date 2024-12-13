@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="payment-card">
+    <h2>Secure Payment Gateway</h2>
+    <form action="/process_payment" method="POST">
+      <div class="form-group">
+        <label for="card_number">Card Number:</label>
+        <input type="text" id="card_number" name="card_number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cardholder_name">Cardholder Name:</label>
+        <input type="text" id="cardholder_name" name="cardholder_name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+      </div>
+
+      <input type="submit" value="Pay Now" class="btn-pay">
+    </form>
+  </div>
+{% endblock %}
+
+

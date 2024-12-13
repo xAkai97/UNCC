@@ -1,0 +1,29 @@
+@startuml RegisterSequence
+
+actor Customer as customer
+boundary "System" as system
+control "Authentication" as auth
+database Database as db
+
+customer -> system: Register
+activate system
+
+system -> auth: Check Username Availability(username, db)
+activate auth
+auth --> system: Username Available
+deactivate auth
+
+system -> auth: Create Account(username, password, db)
+activate auth
+auth --> system: Account Created
+deactivate auth
+
+system -> db: Save Account Data(username, password)
+activate db
+db --> system: Data Saved
+deactivate db
+
+system -> system: Redirect to Login Page
+deactivate system
+
+@enduml
