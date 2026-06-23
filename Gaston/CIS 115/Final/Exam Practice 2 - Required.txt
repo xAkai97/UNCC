@@ -1,0 +1,350 @@
+Question 1
+5 out of 5 points
+
+Correct	
+Which statement is an example of a repetition structure?
+Selected Answer:	
+Correctb. 
+repeat (2 times)
+Answers:	
+a. 
+sit down
+Correctb. 
+repeat (2 times)
+c. 
+walk forward
+d. 
+if (Ginger is on the bench)
+Question 2
+5 out of 5 points
+
+Correct	
+Which for clause is correct?
+Selected Answer:	
+Correctc. 
+for (int i = 1; i < 10; i += 1)
+Answers:	
+a. 
+for (int i = 1)
+b. 
+for (i  <  10; int i = 1; i += 1)
+Correctc. 
+for (int i = 1; i < 10; i += 1)
+d. 
+for (int i = 1; i += 1)
+Question 3
+5 out of 5 points
+
+Correct	
+When declaring a named constant, which keyword indicates that the memory location being declared cannot be changed during runtime?
+Selected Answer:	
+Correctd. 
+const
+Answers:	
+a. 
+bool
+b. 
+constant
+c. 
+fixed
+Correctd. 
+const
+Question 4
+5 out of 5 points
+
+Correct	
+Which of the following is true about case clauses in a switch statement?
+Selected Answer:	
+Correctb. 
+the value can be a literal constant
+Answers:	
+a. 
+they must contain a break statement
+Correctb. 
+the value can be a literal constant
+c. 
+each case clause has a default clause
+d. 
+the data type can be different from the selectorExpression
+Question 5
+5 out of 5 points
+
+Correct	
+Which of the following data types can contain a real number?
+Selected Answer:	
+Correctb. 
+float
+Answers:	
+a. 
+char
+Correctb. 
+float
+c. 
+int
+d. 
+bool
+Question 6
+5 out of 5 points
+
+Correct	
+What type of variables can be used only by the function in which they are declared or in whose parameter list they appear?
+Selected Answer:	
+Correctb. 
+Local
+Answers:	
+a. 
+Literal
+Correctb. 
+Local
+c. 
+Global
+d. 
+Lifetime
+Question 7
+5 out of 5 points
+
+Correct	
+What type of loop is often used in programs that allow the user to select from a menu?
+Selected Answer:	
+Correctb. 
+posttest
+Answers:	
+a. 
+pretest
+Correctb. 
+posttest
+c. 
+while
+d. 
+for
+Question 8
+5 out of 5 points
+
+Correct	
+Which of the following is true about nested repetition structures?
+Selected Answer:	
+Correctc. 
+each loop can be either pretest or posttest
+Answers:	
+a. 
+both must be posttest loops
+b. 
+one loop must be pretest and the other posttest
+Correctc. 
+each loop can be either pretest or posttest
+d. 
+both must be pretest loops
+Question 9
+5 out of 5 points
+
+Correct	
+Which of the following would be an example of invalid data?
+Selected Answer:	
+Correctb. 
+a negative tax rate
+Answers:	
+a. 
+an age between 1 and 100
+Correctb. 
+a negative tax rate
+c. 
+a random number between 0 and 1
+d. 
+a selling price of $1000
+Question 10
+5 out of 5 points
+
+Correct	
+Which object tells the computer to pause program execution while the user enters one or more characters at the keyboard?
+Selected Answer:	
+Correcta. 
+cin
+Answers:	
+Correcta. 
+cin
+b. 
+cout
+c. 
+endline
+d. 
+stream
+Question 11
+5 out of 5 points
+
+Correct	
+What type of structure is created when a pretest loop is inside another pretest loop?
+Selected Answer:	
+Correctd. 
+nested repetition
+Answers:	
+a. 
+integrated selection
+b. 
+iterative repetition
+c. 
+optional selection
+Correctd. 
+nested repetition
+Question 12
+5 out of 5 points
+
+Correct	
+What is wrong with the following code?
+​​
+
+int xNum, yNum;
+do
+    for (xNum = 1; xNum < 10; xNum += 1)
+      yNum += 2;
+while (yNum < 20);
+
+​
+
+Selected Answer:	
+Correctb. 
+yNum should be initialized
+Answers:	
+a. 
+the for loop needs opening and closing braces
+Correctb. 
+yNum should be initialized
+c. 
+a for loop cannot be inside a do while loop
+d. 
+the do loop needs opening and closing braces
+Question 13
+5 out of 5 points
+
+Correct	
+Which type of structure makes a decision based on one or more conditions?
+Selected Answer:	
+Correctb. 
+selection
+Answers:	
+a. 
+looping
+Correctb. 
+selection
+c. 
+question
+d. 
+iteration
+Question 14
+5 out of 5 points
+
+Correct	
+Which of the following is a valid integer value?
+Selected Answer:	
+Correctd. 
+-123
+Answers:	
+a. 
+16.2
+b. 
+5.132456e+03
+c. 
+‘9’
+Correctd. 
+-123
+Question 15
+5 out of 5 points
+
+Correct	
+What type of loop statement should you use if the instructions in the loop body must be processed at least once?
+Selected Answer:	
+Correcta. 
+do while
+Answers:	
+Correcta. 
+do while
+b. 
+while
+c. 
+for
+d. 
+repeat until
+Question 16
+5 out of 5 points
+
+Correct	
+Which of the following is defined in C++ as a sequence of characters?
+Selected Answer:	
+Correctb. 
+stream
+Answers:	
+a. 
+cin
+Correctb. 
+stream
+c. 
+cout
+d. 
+endline
+Question 17
+5 out of 5 points
+
+Correct	
+What value is returned by the time function?
+Selected Answer:	
+Correctb. 
+seconds elapsed since midnight, 1/1/1970
+Answers:	
+a. 
+minutes  elapsed since midnight, 1/1/1970
+Correctb. 
+seconds elapsed since midnight, 1/1/1970
+c. 
+hours elapsed since midnight, 1/1/1970
+d. 
+days  elapsed since midnight, 1/1/1970
+Question 18
+5 out of 5 points
+
+Correct	
+Which of the following comparison operators represents “not equal to” in C++?
+Selected Answer:	
+Correctc. 
+!=
+Answers:	
+a. 
+< >
+b. 
+<=
+Correctc. 
+!=
+d. 
+/=
+Question 19
+5 out of 5 points
+
+Correct	
+Which of the following best represents the goal of the problem-solving process?
+Selected Answer:	
+Correctc. 
+output
+Answers:	
+a. 
+input
+b. 
+program
+Correctc. 
+output
+d. 
+processing
+Question 20
+5 out of 5 points
+
+Correct	
+What is used to summarize how the computer evaluates the logical operators in an expression?
+Selected Answer:	
+Correctd. 
+Truth tables
+Answers:	
+a. 
+Symbol tables
+b. 
+Evaluation tables
+c. 
+Logical tables
+Correctd. 
+Truth tables

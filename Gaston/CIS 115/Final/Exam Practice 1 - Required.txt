@@ -1,0 +1,760 @@
+Question 1
+5 out of 5 points
+
+Correct	
+Although not required, it is good programming practice to mark the end of the loop with a(n) _____.
+Selected Answer:	
+Correctc. 
+comment
+Answers:	
+a. 
+cout statement
+b. 
+semicolon
+Correctc. 
+comment
+d. 
+end statement
+Question 2
+0 out of 5 points
+
+Incorrect	
+Instead of an if statement, what type of statement can you often use to code a multiple-alternative selection structure?
+Selected Answer:	
+Incorrectd. 
+select
+Answers:	
+a. 
+choose
+Correctb. 
+switch
+c. 
+else
+d. 
+select
+Question 3
+5 out of 5 points
+
+Correct	
+​Which of the following is true about global variables?
+Selected Answer:	
+Correctd. 
+​The are declared outside of any functions
+Answers:	
+a. 
+​They are declared using the global keyword
+b. 
+​Their lifetime begins the first time they are used
+c. 
+​They are declared right before the opening brace in main
+Correctd. 
+​The are declared outside of any functions
+Question 4
+5 out of 5 points
+
+Correct	
+All numeric literal constants with a decimal place are considered which data type?
+Selected Answer:	
+Correctc. 
+double
+Answers:	
+a. 
+bool
+b. 
+int
+Correctc. 
+double
+d. 
+real
+Question 5
+5 out of 5 points
+
+Correct	
+In the following switch statement, what is the expected output?
+​
+
+switchval = 83-23;
+
+switch (switchval)
+
+{
+
+case 30:
+
+   cout << "switchval is 30";
+
+   break;
+
+case 40:
+
+   cout << "switchval is 40";
+
+   break;
+
+case 50:
+
+   cout << "switchval is 50";
+
+   break;
+
+default:
+
+   cout << "switchval is more than 50";
+
+}
+
+​
+
+Selected Answer:	
+Correctc. 
+switchval is more than 50
+Answers:	
+a. 
+switchval is 30
+b. 
+switchval is 40
+Correctc. 
+switchval is more than 50
+d. 
+switchval is 50
+Question 6
+5 out of 5 points
+
+Correct	
+A programmer determines whether a problem’s solution requires a nested selection structure by studying which of the following?
+Selected Answer:	
+Correctb. 
+problem specification
+Answers:	
+a. 
+flow model
+Correctb. 
+problem specification
+c. 
+data validation tables
+d. 
+none of the above
+Question 7
+5 out of 5 points
+
+Correct	
+In a for statement, which argument or arguments are required?
+Selected Answer:	
+Correcta. 
+condition 
+Answers:	
+Correcta. 
+condition 
+b. 
+initialization and update
+c. 
+initialization
+d. 
+initialization and condition
+Question 8
+5 out of 5 points
+
+Correct	
+Explicit type conversion is accomplished in C++ with which of the following operators?
+Selected Answer:	
+Correcta. 
+static_cast
+Answers:	
+Correcta. 
+static_cast
+b. 
+type_cast
+c. 
+explicit
+d. 
+convert
+Question 9
+5 out of 5 points
+
+Correct	
+What are program instructions that utilize mnemonics called?
+Selected Answer:	
+Correctb. 
+assembly code
+Answers:	
+a. 
+procedure-oriented language
+Correctb. 
+assembly code
+c. 
+machine language
+d. 
+object-oriented code
+Question 10
+5 out of 5 points
+
+Correct	
+What is the term for the starting point value used by the random number generator?
+Selected Answer:	
+Correctd. 
+seed
+Answers:	
+a. 
+rand
+b. 
+clock
+c. 
+tick
+Correctd. 
+seed
+Question 11
+5 out of 5 points
+
+Correct	
+What is the first step in the problem-solving process?
+Selected Answer:	
+Correcta. 
+analyze the problem
+Answers:	
+Correcta. 
+analyze the problem
+b. 
+write the documentation
+c. 
+code the algorithm into a program
+d. 
+plan the algorithm
+Question 12
+5 out of 5 points
+
+Correct	
+What can you do to stop an endless loop in a C++ program?
+Selected Answer:	
+Correctc. 
+press Ctrl+c
+Answers:	
+a. 
+type break
+b. 
+press End
+Correctc. 
+press Ctrl+c
+d. 
+type end
+Question 13
+5 out of 5 points
+
+Correct	
+In a pretest loop, what should you include in the loop body to ensure that there is a way to enter the sentinel value after the loop body instructions are processed the first time?
+Selected Answer:	
+Correctc. 
+update read
+Answers:	
+a. 
+trip value
+b. 
+priming read
+Correctc. 
+update read
+d. 
+trailer value
+Question 14
+5 out of 5 points
+
+Correct	
+In a flowchart, what does a diamond that has more than two flow lines represent?
+Selected Answer:	
+Correctd. 
+extended selection structure
+Answers:	
+a. 
+single-alternative selection structure
+b. 
+dual-alternative selection structure
+c. 
+optional selection structure
+Correctd. 
+extended selection structure
+Question 15
+5 out of 5 points
+
+Correct	
+Selection structures that contain instructions on both the true and false paths are referred to as which of the following?
+Selected Answer:	
+Correctb. 
+dual-alternative
+Answers:	
+a. 
+single-alternative
+Correctb. 
+dual-alternative
+c. 
+two path
+d. 
+none of the above
+Question 16
+5 out of 5 points
+
+Correct	
+If the value’s data type does not match the memory location’s data type, what process does the computer use to convert the value to fit the memory location?
+Selected Answer:	
+Correctc. 
+implicit type conversion
+Answers:	
+a. 
+explicit type conversion
+b. 
+truncation
+Correctc. 
+implicit type conversion
+d. 
+rounding
+Question 17
+5 out of 5 points
+
+Correct	
+How many different states do the switches in machine language have?
+Selected Answer:	
+Correctc. 
+2
+Answers:	
+a. 
+1
+b. 
+8
+Correctc. 
+2
+d. 
+16
+Question 18
+5 out of 5 points
+
+Correct	
+What is another name for a repetition structure?
+Selected Answer:	
+Correctc. 
+loop structure
+Answers:	
+a. 
+sequence structure
+b. 
+decision structure
+Correctc. 
+loop structure
+d. 
+algorithmic structure
+Question 19
+5 out of 5 points
+
+Correct	
+Review the following pseudocode. What type of item is sales tax rate?
+1. enter the sale price and sales tax rate
+2. calculate the cost by multiplying the sale price by the sales tax rate and then adding the result to the sale price
+3. display the cost
+
+​
+
+Selected Answer:	
+Correctd. 
+input
+Answers:	
+a. 
+processing
+b. 
+output
+c. 
+code
+Correctd. 
+input
+Question 20
+5 out of 5 points
+
+Correct	
+What function is used to initialize the random number generator, and what type of function is it?
+Selected Answer:	
+Correctd. 
+srand, void
+Answers:	
+a. 
+rand, value-returning
+b. 
+init, value-returning
+c. 
+time, void
+Correctd. 
+srand, void
+
+Question 1
+5 out of 5 points
+
+Correct	
+Explicit type conversion is accomplished in C++ with which of the following operators?
+Selected Answer:	
+Correctd. 
+static_cast
+Answers:	
+a. 
+type_cast
+b. 
+convert
+c. 
+explicit
+Correctd. 
+static_cast
+Question 2
+5 out of 5 points
+
+Correct	
+How many different states do the switches in machine language have?
+Selected Answer:	
+Correctc. 
+2
+Answers:	
+a. 
+8
+b. 
+1
+Correctc. 
+2
+d. 
+16
+Question 3
+5 out of 5 points
+
+Correct	
+What are program instructions that utilize mnemonics called?
+Selected Answer:	
+Correctd. 
+assembly code
+Answers:	
+a. 
+machine language
+b. 
+procedure-oriented language
+c. 
+object-oriented code
+Correctd. 
+assembly code
+Question 4
+5 out of 5 points
+
+Correct	
+In which type of repetition structure is it possible that the instructions in the loop body might never be processed?
+Selected Answer:	
+Correcta. 
+for loop
+Answers:	
+Correcta. 
+for loop
+b. 
+do while loop
+c. 
+posttest loop
+d. 
+switch loop
+Question 5
+5 out of 5 points
+
+Correct	
+A computer programmer can use which of the following to control the number of decimal places that appear when a real number is displayed?
+Selected Answer:	
+Correctc. 
+setprecision stream manipulator
+Answers:	
+a. 
+scientific stream manipulator
+b. 
+endl
+Correctc. 
+setprecision stream manipulator
+d. 
+fixed stream manipulator
+Question 6
+5 out of 5 points
+
+Correct	
+The original program instructions entered into an editor is known as which of the following?
+Selected Answer:	
+Correcta. 
+source code
+Answers:	
+Correcta. 
+source code
+b. 
+object code
+c. 
+linker
+d. 
+IDE
+Question 7
+5 out of 5 points
+
+Correct	
+Review the following pseudocode. What type of item is sales tax rate?
+1. enter the sale price and sales tax rate
+2. calculate the cost by multiplying the sale price by the sales tax rate and then adding the result to the sale price
+3. display the cost
+
+​
+
+Selected Answer:	
+Correctd. 
+input
+Answers:	
+a. 
+processing
+b. 
+output
+c. 
+code
+Correctd. 
+input
+Question 8
+5 out of 5 points
+
+Correct	
+In the following pseudocode algorithm, what is the output given the following inputs?
+sale price=2.00
+
+sales tax rate=6%
+
+​
+
+1. enter the sale price and sales tax rate
+2. calculate the cost by multiplying the sale price by the sales tax rate and then adding the result to the sale price
+3. display the cost
+
+​
+
+Selected Answer:	
+Correctc. 
+2.12
+Answers:	
+a. 
+.12
+b. 
+2.00
+Correctc. 
+2.12
+d. 
+2.06
+Question 9
+5 out of 5 points
+
+Correct	
+What is the output of the following code?
+​
+
+int xNum = 0;
+
+int yNum = 0;
+
+do
+
+{
+
+   xNum += yNum;
+
+} while (xNum == yNum);
+
+cout << xNum;
+
+​
+
+Selected Answer:	
+Correctc. 
+Endless loop
+Answers:	
+a. 
+2
+b. 
+1
+Correctc. 
+Endless loop
+d. 
+0
+Question 10
+5 out of 5 points
+
+Correct	
+What function is used to initialize the random number generator, and what type of function is it?
+Selected Answer:	
+Correctb. 
+srand, void
+Answers:	
+a. 
+time, void
+Correctb. 
+srand, void
+c. 
+init, value-returning
+d. 
+rand, value-returning
+Question 11
+5 out of 5 points
+
+Correct	
+What can you do to stop an endless loop in a C++ program?
+Selected Answer:	
+Correcta. 
+press Ctrl+c
+Answers:	
+Correcta. 
+press Ctrl+c
+b. 
+press End
+c. 
+type end
+d. 
+type break
+Question 12
+5 out of 5 points
+
+Correct	
+In an if statement, the programmer must supply the condition that the computer needs to evaluate before further processing can occur. The condition must be which type of expression?
+Selected Answer:	
+Correctb. 
+Boolean
+Answers:	
+a. 
+data
+Correctb. 
+Boolean
+c. 
+comparison
+d. 
+arithmetic
+Question 13
+5 out of 5 points
+
+Correct	
+What is the result of the following arithmetic expression in C++?  
+2 + 4 * 2
+
+Selected Answer:	
+Correcta. 
+10
+Answers:	
+Correcta. 
+10
+b. 
+12
+c. 
+8
+d. 
+16
+Question 14
+5 out of 5 points
+
+Correct	
+In C++, which symbol is used for the extraction operator?
+Selected Answer:	
+Correctb. 
+>>
+Answers:	
+a. 
+<<
+Correctb. 
+>>
+c. 
+=
+d. 
+%
+Question 15
+5 out of 5 points
+
+Correct	
+​When do you need to include a function prototype?
+Selected Answer:	
+Correctc. 
+​When a function is defined after the main function
+Answers:	
+a. 
+​When a function is defined in an external library
+b. 
+​When a function is defined inside the  main  function
+Correctc. 
+​When a function is defined after the main function
+d. 
+​When a function is defined before the  main  function
+Question 16
+5 out of 5 points
+
+Correct	
+What is the term for the starting point value used by the random number generator?
+Selected Answer:	
+Correctb. 
+seed
+Answers:	
+a. 
+tick
+Correctb. 
+seed
+c. 
+rand
+d. 
+clock
+Question 17
+5 out of 5 points
+
+Correct	
+What is the term used for the assignment a beginning value to a memory location?
+Selected Answer:	
+Correctd. 
+initializing
+Answers:	
+a. 
+explicit type conversion
+b. 
+implicit type conversion
+c. 
+revision
+Correctd. 
+initializing
+Question 18
+5 out of 5 points
+
+Correct	
+In a repetition structure, what is the requirement for repeating the instructions called?
+Selected Answer:	
+Correctc. 
+looping condition
+Answers:	
+a. 
+exit condition
+b. 
+infinite loop
+Correctc. 
+looping condition
+d. 
+sentinel value
+Question 19
+5 out of 5 points
+
+Correct	
+An accountant that is part of a programming team working on a program that requires accounting experience is an example of which of the following?
+Selected Answer:	
+Correctc. 
+subject matter expert
+Answers:	
+a. 
+drag
+b. 
+top-level coordinator
+Correctc. 
+subject matter expert
+d. 
+engineer
+Question 20
+5 out of 5 points
+
+Correct	
+Most algorithms begin with instructions to do which of the following?
+Selected Answer:	
+Correctc. 
+enter input items
+Answers:	
+a. 
+perform calculations
+b. 
+print results
+Correctc. 
+enter input items
+d. 
+output user instructions
+

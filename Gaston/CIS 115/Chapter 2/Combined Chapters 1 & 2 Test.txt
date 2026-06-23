@@ -1,0 +1,495 @@
+Question 1
+
+How many different states do the switches in machine language have?
+Selected Answer:	
+Correctb. 
+2
+Answers:	
+a. 
+8
+Correctb. 
+2
+c. 
+1
+d. 
+16
+Question 2
+
+What is another name for desk-checking?
+Selected Answer:	
+Correctc. 
+hand-tracing
+Answers:	
+a. 
+drawing
+b. 
+checking syntax
+Correctc. 
+hand-tracing
+d. 
+charting
+Question 3
+
+Which of the following best represents the goal of the problem-solving process?
+Selected Answer:	
+Correcta. 
+output
+Answers:	
+Correcta. 
+output
+b. 
+program
+c. 
+processing
+d. 
+input
+Question 4
+
+What are program instructions written in 1s and 0s called?
+Selected Answer:	
+Correctc. 
+machine code
+Answers:	
+a. 
+procedure-oriented code
+b. 
+assembly language
+Correctc. 
+machine code
+d. 
+object-oriented language
+Question 5
+
+What programming technique allows programmers to jot down their ideas using a human-readable language without having to worry about the syntax of the programming language itself?
+Selected Answer:	
+Correctb. 
+pseudoode
+Answers:	
+a. 
+flowchart
+Correctb. 
+pseudoode
+c. 
+IPO chart
+d. 
+Venn diagram
+Question 6
+
+Which of the following best describes a computer program that is implemented with a computer?
+Selected Answer:	
+Correctb. 
+solution
+Answers:	
+a. 
+flowchart
+Correctb. 
+solution
+c. 
+problem
+d. 
+diagram
+Question 7
+
+What are program instructions that utilize mnemonics called?
+Selected Answer:	
+Correctd. 
+assembly code
+Answers:	
+a. 
+procedure-oriented language
+b. 
+machine language
+c. 
+object-oriented code
+Correctd. 
+assembly code
+Question 8
+
+C++, Visual Basic, Java, and C# are examples of what type of language that can be used to create both procedure-oriented and object-oriented programs?
+Selected Answer:	
+Correctc. 
+high-level
+Answers:	
+a. 
+machine
+b. 
+compiler
+Correctc. 
+high-level
+d. 
+assembly
+Question 9
+
+With what type of program does the programmer focus on structures that represent screen elements such as check boxes and buttons or structures that represent real world items such as an employee or time card?
+Selected Answer:	
+Correcta. 
+object-oriented
+Answers:	
+Correcta. 
+object-oriented
+b. 
+assembly language
+c. 
+machine language
+d. 
+procedure-oriented
+Question 10
+
+What does the rectangle symbol in a flowchart represent?
+Selected Answer:	
+Correctb. 
+processing
+Answers:	
+a. 
+start/stop
+Correctb. 
+processing
+c. 
+input/output
+d. 
+branching
+Question 11
+
+What type of chart helps programmers organize and summarize the results of the analysis step?
+Selected Answer:	
+Correcta. 
+IPO
+Answers:	
+Correcta. 
+IPO
+b. 
+flow
+c. 
+pseudocode
+d. 
+ROI
+Question 12
+
+In the following pseudocode algorithm, which of the following is considered a processing item?
+​
+
+1. enter the sale price and sales tax rate
+2. calculate the sales tax by multiplying the sale price by the sales tax rate
+3. calculate the cost by adding the sales tax to the sale price
+4. display the cost
+
+​
+
+Selected Answer:	
+Correcta. 
+sales tax
+Answers:	
+Correcta. 
+sales tax
+b. 
+sale price
+c. 
+tax rate
+d. 
+cost
+Question 13
+
+An example of an instruction written in machine language would be ____.
+Selected Answer:	
+Correctd. 
+0000 0101 1100 0000
+Answers:	
+a. 
+sum = num1 + num2
+b. 
+repeat 5 times
+c. 
+ADD bx, ax
+Correctd. 
+0000 0101 1100 0000
+Question 14
+
+To be sure an algorithm works correctly, you should desk-check it several times using which of the following?
+Selected Answer:	
+Correctc. 
+both valid and invalid data
+Answers:	
+a. 
+valid data only
+b. 
+invalid data only
+Correctc. 
+both valid and invalid data
+d. 
+invalid data only if valid data works correctly
+Question 15
+
+Review the following pseudocode. What type of item is sales tax rate?
+1. enter the sale price and sales tax rate
+2. calculate the cost by multiplying the sale price by the sales tax rate and then adding the result to the sale price
+3. display the cost
+
+​
+
+Selected Answer:	
+Correctd. 
+input
+Answers:	
+a. 
+processing
+b. 
+output
+c. 
+code
+Correctd. 
+input
+Question 16
+
+Which of the following pseudocode statements represents output?
+Selected Answer:	
+Correcta. 
+display the miles per gallon
+Answers:	
+Correcta. 
+display the miles per gallon
+b. 
+calculate the mile per gallon
+c. 
+enter the miles driven
+d. 
+divide the miles driven by gallons used
+Question 17
+
+C++, Visual Basic, C#, Python, and Java are all examples of what kind of language?
+Selected Answer:	
+Correctb. 
+programming
+Answers:	
+a. 
+machine
+Correctb. 
+programming
+c. 
+mnemonic
+d. 
+assembly
+Question 18
+
+Most algorithms begin with instructions to do which of the following?
+Selected Answer:	
+Correctc. 
+enter input items
+Answers:	
+a. 
+perform calculations
+b. 
+print results
+Correctc. 
+enter input items
+d. 
+output user instructions
+Question 19
+
+With whom should a programmer have extensive interaction before converting a solution to a problem into a computer program?
+Selected Answer:	
+Correctd. 
+user
+Answers:	
+a. 
+language developer
+b. 
+compiler vendor
+c. 
+system engineer
+Correctd. 
+user
+Question 20
+
+In the following pseudocode, which item is considered a processing item?
+​
+
+1. enter the midterm score and final score
+2. calculate the sum by adding together the midterm score and final score
+3. calculate the average score by dividing the sum by 2
+4. display the average score
+
+​
+
+Selected Answer:	
+Correctb. 
+sum
+Answers:	
+a. 
+midterm score
+Correctb. 
+sum
+c. 
+final score
+d. 
+average
+Question 21
+
+Which of the following is a set of step-by-step instructions that accomplish a task?
+Selected Answer:	
+Correctb. 
+algorithm
+Answers:	
+a. 
+loop
+Correctb. 
+algorithm
+c. 
+heuristic
+d. 
+mnemonic
+Question 22
+
+What does the oval symbol in a flowchart represent?
+Selected Answer:	
+Correctd. 
+start/stop
+Answers:	
+a. 
+branching
+b. 
+processing
+c. 
+input/output
+Correctd. 
+start/stop
+Question 23
+
+What do programs written in assembly language require to convert the assembly language instructions into machine language?
+Selected Answer:	
+Correcta. 
+assembler
+Answers:	
+Correcta. 
+assembler
+b. 
+interpreter
+c. 
+converter
+d. 
+compiler
+Question 24
+
+In a pseudocode algorithm, what part of language should each instruction begin with?
+Selected Answer:	
+Correctd. 
+verb
+Answers:	
+a. 
+adverb
+b. 
+noun
+c. 
+article
+Correctd. 
+verb
+Question 25
+
+Which statement is an example of a repetition structure?
+Selected Answer:	
+Correcta. 
+repeat (2 times)
+Answers:	
+Correcta. 
+repeat (2 times)
+b. 
+if (Ginger is on the bench)
+c. 
+sit down
+d. 
+walk forward
+Question 26
+
+In which column of the desk-check table do you enter the expected output of the following algorithm?
+​
+
+1. enter the sale price and sales tax rate
+2. calculate the sales tax by multiplying the sale price by the sales tax rate
+3. calculate the cost by adding the sales tax to the sale price
+4. display the cost
+
+​
+
+Desk-check Table:
+
+sale price    sales tax rate    sales tax    cost
+
+​
+
+Selected Answer:	
+Correcta. 
+cost
+Answers:	
+Correcta. 
+cost
+b. 
+sales tax
+c. 
+tales tax rate
+d. 
+sale price
+Question 27
+
+Which type of structure makes a decision based on one or more conditions?
+Selected Answer:	
+Correcta. 
+selection
+Answers:	
+Correcta. 
+selection
+b. 
+iteration
+c. 
+question
+d. 
+looping
+Question 28
+
+What is the name for the basic structure that controls the overall flow of a program's logic?
+Selected Answer:	
+Correctd. 
+control
+Answers:	
+a. 
+directional
+b. 
+algorithmic
+c. 
+procedure
+Correctd. 
+control
+Question 29
+
+What do some programmers use to organize and summarize the results of a problem analysis?
+Selected Answer:	
+Correctc. 
+IPO chart
+Answers:	
+a. 
+Low-Flo diagram
+b. 
+POI diagram
+Correctc. 
+IPO chart
+d. 
+Sequence-Seletion-Iteration chart
+Question 30
+
+What type of structure is the following set of statements an example of?
+while not end of file
+
+   read a line
+
+end while
+
+Selected Answer:	
+Correcta. 
+repetition
+Answers:	
+Correcta. 
+repetition
+b. 
+sequence
+c. 
+selection
+d. 
+decision

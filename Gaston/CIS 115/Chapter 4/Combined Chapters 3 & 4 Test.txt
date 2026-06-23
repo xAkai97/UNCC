@@ -1,0 +1,1025 @@
+Question 1
+3.33 out of 3.33 points
+
+Correct	
+When declaring a named constant, which keyword indicates that the memory location being declared cannot be changed during runtime?
+Selected Answer:	
+Correctc. 
+const
+Answers:	
+a. 
+bool
+b. 
+fixed
+Correctc. 
+const
+d. 
+constant
+Question 2
+What symbol is used in C++ for the modulus operator?
+Answers:	
+Correcta. 
+%
+b. 
+&
+c. 
+#
+d. 
+$
+Question 3
+3.33 out of 3.33 points
+
+Correct	
+When creating a program using C++, which symbol is used for the insertion operator?
+Selected Answer:	
+Correcta. 
+<<
+Answers:	
+Correcta. 
+<<
+b. 
+%
+c. 
+=
+d. 
+>>
+Question 4
+3.33 out of 3.33 points
+
+Correct	
+What type of error occurs when you break one of the programming language’s rules?
+Selected Answer:	
+Correctb. 
+syntax
+Answers:	
+a. 
+logic
+Correctb. 
+syntax
+c. 
+stream
+d. 
+manipulator
+Question 5
+3.33 out of 3.33 points
+
+Correct	
+What type of error is often difficult to find, and can occur for many reasons, such as entering instructions in the incorrect order?
+Selected Answer:	
+Correctc. 
+logic
+Answers:	
+a. 
+stream
+b. 
+manipulator
+Correctc. 
+logic
+d. 
+syntax
+Question 6
+3.33 out of 3.33 points
+
+Correct	
+Which file must be included in any program that uses the cin or cout objects?
+Selected Answer:	
+Correctd. 
+iostream
+Answers:	
+a. 
+stream
+b. 
+io
+c. 
+namespace
+Correctd. 
+iostream
+Question 7
+3.33 out of 3.33 points
+
+Correct	
+When creating an assignment statement, which symbol is used for the assignment operator?
+Selected Answer:	
+Correctb. 
+=
+Answers:	
+a. 
+>>
+Correctb. 
+=
+c. 
++=
+d. 
+==
+Question 8
+What is the ASCII value of the '0' character?
+Answers:	
+a. 
+0
+b. 
+0.0
+c. 
+66
+Correctd. 
+48
+Question 9
+3.33 out of 3.33 points
+
+Correct	
+What extension does a source file name have?
+Selected Answer:	
+Correctd. 
+.cpp
+Answers:	
+a. 
+.prog
+b. 
+.c
+c. 
+.cprog
+Correctd. 
+.cpp
+Question 10
+3.33 out of 3.33 points
+
+Correct	
+Which of the following would be a valid name for a memory location in C++?
+Selected Answer:	
+Correcta. 
+a1B2c3D4
+Answers:	
+Correcta. 
+a1B2c3D4
+b. 
+me&you
+c. 
+3oreos
+d. 
+my.name
+Question 11
+3.33 out of 3.33 points
+
+Correct	
+The short data type can store a number in the range from -32,768 to +32,767.  How many bytes of memory is required for the short data type?
+Selected Answer:	
+Correctd. 
+two
+Answers:	
+a. 
+one
+b. 
+four
+c. 
+eight
+Correctd. 
+two
+Question 12
+3.33 out of 3.33 points
+
+Correct	
+​Given the following code, what is the final value of the variable gpa?
+​
+
+int gpa; 
+
+int numclasses = 3;
+
+int class1 = 4;
+
+int class2 = 2;
+
+int class3 = 3;
+
+gpa = (class1 + class2 + class3)/numclasses;
+
+​
+
+Selected Answer:	
+Correctb. 
+​3.0
+Answers:	
+a. 
+​1.0
+Correctb. 
+​3.0
+c. 
+​3.5
+d. 
+​2.5
+Question 13
+3.33 out of 3.33 points
+
+Correct	
+What is the decimal equivalent of the binary number 110?
+Selected Answer:	
+Correctd. 
+6
+Answers:	
+a. 
+4
+b. 
+2
+c. 
+8
+Correctd. 
+6
+Question 14
+3.33 out of 3.33 points
+
+Correct	
+​Which line of code takes the value of count and adds three to its current value?
+Selected Answer:	
+Correcta. 
+​count += 3;
+Answers:	
+Correcta. 
+​count += 3;
+b. 
+​count = ++3;
+c. 
+​count = 3++;
+d. 
+​count = +3;
+Question 15
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is NOT a string literal constant?
+Selected Answer:	
+Correctd. 
+'abc'
+Answers:	
+a. 
+“”
+b. 
+“&”
+c. 
+“Hello”
+Correctd. 
+'abc'
+Question 16
+3.33 out of 3.33 points
+
+Correct	
+Which of the following data types can contain a real number?
+Selected Answer:	
+Correctb. 
+float
+Answers:	
+a. 
+bool
+Correctb. 
+float
+c. 
+char
+d. 
+int
+Question 17
+3.33 out of 3.33 points
+
+Correct	
+All numeric literal constants with a decimal place are considered which data type?
+Selected Answer:	
+Correctb. 
+double
+Answers:	
+a. 
+int
+Correctb. 
+double
+c. 
+real
+d. 
+bool
+Question 18
+3.33 out of 3.33 points
+
+Correct	
+What is an item of data that can appear in a program instruction and can be stored in a memory location.
+Selected Answer:	
+Correctc. 
+literal constant
+Answers:	
+a. 
+variable
+b. 
+keyword
+Correctc. 
+literal constant
+d. 
+named constant
+Question 19
+3.33 out of 3.33 points
+
+Correct	
+What type of objects are used in C++ to handle standard input and output operations?
+Selected Answer:	
+Correctb. 
+stream
+Answers:	
+a. 
+data
+Correctb. 
+stream
+c. 
+inout
+d. 
+io
+Question 20
+3.33 out of 3.33 points
+
+Correct	
+Which stream manipulator can be used to advance the cursor to the next line on the computer screen?
+Selected Answer:	
+Correctb. 
+endl
+Answers:	
+a. 
+cin
+Correctb. 
+endl
+c. 
+endline
+d. 
+cout
+Question 21
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is defined in C++ as a sequence of characters?
+Selected Answer:	
+Correctc. 
+stream
+Answers:	
+a. 
+cin
+b. 
+endline
+Correctc. 
+stream
+d. 
+cout
+Question 22
+3.33 out of 3.33 points
+
+Correct	
+What is used to tell the compiler where it can find the definitions of keywords and classes?
+Selected Answer:	
+Correctc. 
+using directive
+Answers:	
+a. 
+linker
+b. 
+IDE
+Correctc. 
+using directive
+d. 
+#include directive
+Question 23
+3.33 out of 3.33 points
+
+Correct	
+The original program instructions entered into an editor is known as which of the following?
+Selected Answer:	
+Correctd. 
+source code
+Answers:	
+a. 
+linker
+b. 
+object code
+c. 
+IDE
+Correctd. 
+source code
+Question 24
+3.33 out of 3.33 points
+
+Correct	
+If the value’s data type does not match the memory location’s data type, what process does the computer use to convert the value to fit the memory location?
+Selected Answer:	
+Correctd. 
+implicit type conversion
+Answers:	
+a. 
+explicit type conversion
+b. 
+rounding
+c. 
+truncation
+Correctd. 
+implicit type conversion
+Question 25
+3.33 out of 3.33 points
+
+Correct	
+What is the term used for the assignment a beginning value to a memory location?
+Selected Answer:	
+Correctb. 
+initializing
+Answers:	
+a. 
+revision
+Correctb. 
+initializing
+c. 
+explicit type conversion
+d. 
+implicit type conversion
+Question 26
+3.33 out of 3.33 points
+
+Correct	
+What is an example of an invalid name for a memory location in C++?
+Selected Answer:	
+Correctd. 
+2ndname
+Answers:	
+a. 
+CiTy
+b. 
+middle_name
+c. 
+zip3Code
+Correctd. 
+2ndname
+Question 27
+3.33 out of 3.33 points
+
+Correct	
+In C++, which file contains all of the machine code necessary to run a program as many times as desired without the need for translating the program again?
+Selected Answer:	
+Correctb. 
+executable file
+Answers:	
+a. 
+compiler
+Correctb. 
+executable file
+c. 
+source file
+d. 
+object file
+Question 28
+3.33 out of 3.33 points
+
+Correct	
+When a value is converted from one data type to another data type that can store smaller numbers, what type of conversion has occurred?
+Selected Answer:	
+Correctb. 
+demotion
+Answers:	
+a. 
+calculation
+Correctb. 
+demotion
+c. 
+promotion
+d. 
+compilation
+Question 29
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is a valid integer value?
+Selected Answer:	
+Correctd. 
+-123
+Answers:	
+a. 
+‘9’
+b. 
+5.132456e+03
+c. 
+16.2
+Correctd. 
+-123
+Question 30
+3.33 out of 3.33 points
+
+Correct	
+What character is used to enclose a character literal constant?
+Selected Answer:	
+Correcta. 
+single quotes
+Answers:	
+Correcta. 
+single quotes
+b. 
+double quotes
+c. 
+brackets
+d. 
+parentheses
+
+Question 1
+3.33 out of 3.33 points
+
+Correct	
+What extension does a source file name have?
+Selected Answer:	
+Correctc. 
+.cpp
+Answers:	
+a. 
+.cprog
+b. 
+.prog
+Correctc. 
+.cpp
+d. 
+.c
+Question 2
+3.33 out of 3.33 points
+
+Correct	
+When creating an assignment statement, which symbol is used for the assignment operator?
+Selected Answer:	
+Correctc. 
+=
+Answers:	
+a. 
++=
+b. 
+==
+Correctc. 
+=
+d. 
+>>
+Question 3
+3.33 out of 3.33 points
+
+Correct	
+In C++, which file contains all of the machine code necessary to run a program as many times as desired without the need for translating the program again?
+Selected Answer:	
+Correctd. 
+executable file
+Answers:	
+a. 
+compiler
+b. 
+source file
+c. 
+object file
+Correctd. 
+executable file
+Question 4
+3.33 out of 3.33 points
+
+Correct	
+Which C++ program instruction will subtract a value of 3 from the sum variable?
+Selected Answer:	
+Correctb. 
+sum -= 3;
+Answers:	
+a. 
+sum-- 3;
+Correctb. 
+sum -= 3;
+c. 
+sum = -3(sum);
+d. 
+sum ==-3;
+Question 5
+3.33 out of 3.33 points
+
+Correct	
+Which of the following best describes a memory location whose value can change during runtime?
+Selected Answer:	
+Correctb. 
+variable
+Answers:	
+a. 
+keyword
+Correctb. 
+variable
+c. 
+named constant
+d. 
+statement
+Question 6
+3.33 out of 3.33 points
+
+Correct	
+What is the ASCII value of the '0' character?
+Selected Answer:	
+Correctd. 
+48
+Answers:	
+a. 
+0
+b. 
+0.0
+c. 
+66
+Correctd. 
+48
+Question 7
+3.33 out of 3.33 points
+
+Correct	
+When declaring a named constant, which keyword indicates that the memory location being declared cannot be changed during runtime?
+Selected Answer:	
+Correctc. 
+const
+Answers:	
+a. 
+constant
+b. 
+fixed
+Correctc. 
+const
+d. 
+bool
+Question 8
+3.33 out of 3.33 points
+
+Correct	
+What character is used to enclose a character literal constant?
+Selected Answer:	
+Correcta. 
+single quotes
+Answers:	
+Correcta. 
+single quotes
+b. 
+double quotes
+c. 
+brackets
+d. 
+parentheses
+Question 9
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is defined in C++ as a sequence of characters?
+Selected Answer:	
+Correctd. 
+stream
+Answers:	
+a. 
+cout
+b. 
+endline
+c. 
+cin
+Correctd. 
+stream
+Question 10
+3.33 out of 3.33 points
+
+Correct	
+The extraction operator stops removing characters from the cin object when it encounters which of the following?
+Selected Answer:	
+Correctc. 
+white-space character
+Answers:	
+a. 
+letter
+b. 
+number
+Correctc. 
+white-space character
+d. 
+none of the above
+Question 11
+3.33 out of 3.33 points
+
+Correct	
+What is the first line in a function called?
+Selected Answer:	
+Correcta. 
+header
+Answers:	
+Correcta. 
+header
+b. 
+block
+c. 
+title
+d. 
+comment
+Question 12
+3.33 out of 3.33 points
+
+Correct	
+Which development component combines the object file with other machine code necessary for your C++ program to run correctly?
+Selected Answer:	
+Correctb. 
+linker
+Answers:	
+a. 
+source code
+Correctb. 
+linker
+c. 
+object code
+d. 
+IDE
+Question 13
+3.33 out of 3.33 points
+
+Correct	
+What is the term used for the assignment a beginning value to a memory location?
+Selected Answer:	
+Correcta. 
+initializing
+Answers:	
+Correcta. 
+initializing
+b. 
+revision
+c. 
+explicit type conversion
+d. 
+implicit type conversion
+Question 14
+3.33 out of 3.33 points
+
+Correct	
+What is the decimal equivalent of the binary number 110?
+Selected Answer:	
+Correctd. 
+6
+Answers:	
+a. 
+8
+b. 
+2
+c. 
+4
+Correctd. 
+6
+Question 15
+3.33 out of 3.33 points
+
+Correct	
+What line of code can be used to provide a convenient way to merge the source code from one file with the source code in another file, without having to retype the code?
+Selected Answer:	
+Correctd. 
+#include directive
+Answers:	
+a. 
+using directive
+b. 
+$append directive
+c. 
+@add directive
+Correctd. 
+#include directive
+Question 16
+3.33 out of 3.33 points
+
+Correct	
+Memory locations assigned the char data type can store how many characters?
+Selected Answer:	
+Correcta. 
+one
+Answers:	
+Correcta. 
+one
+b. 
+zero
+c. 
+more than one
+d. 
+none of the above
+Question 17
+3.33 out of 3.33 points
+
+Correct	
+All numeric literal constants with a decimal place are considered which data type?
+Selected Answer:	
+Correctc. 
+double
+Answers:	
+a. 
+bool
+b. 
+real
+Correctc. 
+double
+d. 
+int
+Question 18
+3.33 out of 3.33 points
+
+Correct	
+Which of the following would be a valid name for a memory location in C++?
+Selected Answer:	
+Correctc. 
+a1B2c3D4
+Answers:	
+a. 
+my.name
+b. 
+me&you
+Correctc. 
+a1B2c3D4
+d. 
+3oreos
+Question 19
+3.33 out of 3.33 points
+
+Correct	
+When a variable’s name contains two or more words, most C++ programmers enter the name using what type of notation?
+Selected Answer:	
+Correctc. 
+camel case
+Answers:	
+a. 
+all lowercase letters
+b. 
+a space between the words
+Correctc. 
+camel case
+d. 
+all capital letters
+Question 20
+3.33 out of 3.33 points
+
+Correct	
+Which of the following data types can contain a real number?
+Selected Answer:	
+Correcta. 
+float
+Answers:	
+Correcta. 
+float
+b. 
+char
+c. 
+bool
+d. 
+int
+Question 21
+3.33 out of 3.33 points
+
+Correct	
+Which object tells the computer to pause program execution while the user enters one or more characters at the keyboard?
+Selected Answer:	
+Correctc. 
+cin
+Answers:	
+a. 
+cout
+b. 
+endline
+Correctc. 
+cin
+d. 
+stream
+Question 22
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is a valid integer value?
+Selected Answer:	
+Correctd. 
+-123
+Answers:	
+a. 
+5.132456e+03
+b. 
+16.2
+c. 
+‘9’
+Correctd. 
+-123
+Question 23
+3.33 out of 3.33 points
+
+Correct	
+Which data type is referred to as a user-defined data type?
+Selected Answer:	
+Correctc. 
+string
+Answers:	
+a. 
+bool
+b. 
+char
+Correctc. 
+string
+d. 
+short
+Question 24
+3.33 out of 3.33 points
+
+Correct	
+What is an item of data that can appear in a program instruction and can be stored in a memory location.
+Selected Answer:	
+Correctc. 
+literal constant
+Answers:	
+a. 
+keyword
+b. 
+variable
+Correctc. 
+literal constant
+d. 
+named constant
+Question 25
+3.33 out of 3.33 points
+
+Correct	
+Which of the following is a word that has a special meaning in the programming language you are using?
+Selected Answer:	
+Correctb. 
+keyword
+Answers:	
+a. 
+variable
+Correctb. 
+keyword
+c. 
+hashtag
+d. 
+named constant
+Question 26
+3.33 out of 3.33 points
+
+Correct	
+Which stream manipulator can be used to advance the cursor to the next line on the computer screen?
+Selected Answer:	
+Correctd. 
+endl
+Answers:	
+a. 
+endline
+b. 
+cin
+c. 
+cout
+Correctd. 
+endl
+Question 27
+3.33 out of 3.33 points
+
+Correct	
+What is the result of raising the base number to the 0th power?
+Selected Answer:	
+Correctb. 
+1
+Answers:	
+a. 
+0
+Correctb. 
+1
+c. 
+the base number
+d. 
+compiler error
+Question 28
+3.33 out of 3.33 points
+
+Correct	
+In C++, which symbol is used for the extraction operator?
+Selected Answer:	
+Correctd. 
+>>
+Answers:	
+a. 
+=
+b. 
+%
+c. 
+<<
+Correctd. 
+>>
+Question 29
+3.33 out of 3.33 points
+
+Correct	
+What is a memory location whose value cannot change during runtime called?
+Selected Answer:	
+Correctb. 
+named constant
+Answers:	
+a. 
+variable
+Correctb. 
+named constant
+c. 
+statement
+d. 
+keyword
+Question 30
+3.33 out of 3.33 points
+
+Correct	
+What symbol is used in C++ for the modulus operator?
+Selected Answer:	
+Correctc. 
+%
+Answers:	
+a. 
+#
+b. 
+&
+Correctc. 
+%
+d. 
+$
