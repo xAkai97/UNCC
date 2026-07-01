@@ -1,0 +1,17 @@
+Burger Orders
+-------------------
+
+New Order #4 consists of 5 hamburger(s), 5 cheeseburger(s), 5 veggie burger(s), 15 soda(s), and is not to go.
+
+Order #2 has been completed.
+
+Order #1 has been cancelled.
+
+New Order #5 consists of 1 hamburger(s), 2 cheeseburger(s), 3 veggie burger(s), 6 soda(s), and is to go.
+
+Order #5 has been canceled.
+
+Total of Hamburgers ordered today: 6
+Total of Cheeseburgers ordered today: 7
+Total of Veggieburgers ordered today: 8
+Total of Sodas ordered today: 21

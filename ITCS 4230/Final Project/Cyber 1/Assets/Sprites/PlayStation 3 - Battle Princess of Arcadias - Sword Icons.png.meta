@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 7b8c17c43b370034e9c2d1badb3de406
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 926
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e8f979725b214abf94c8edc1ddd75
+      internalID: 1303886231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 926
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb838df3d4964c04d8b6178a1bbc7669
+      internalID: -1762009110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 926
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47239d267b877f9438bd64391e9a3e08
+      internalID: 416500549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 926
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f65c8caedd6d74a80ae93261837865
+      internalID: 1793345545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 907
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619fdad0b43bba943ab12b84faf1b556
+      internalID: -753638555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_5
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 907
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5a7bcd3bc956a48af23ae59c404af8
+      internalID: 1920140127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 907
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c08fa094bce494d9b14be7b674c5f2
+      internalID: 139978868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 907
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09b4599e79be9b4ba17b4a29d786707
+      internalID: -1206574396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 795
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a4657595f92bd4097b755bece2fe95
+      internalID: -2071841670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 795
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1433315cef86354087f077312b5bcdc
+      internalID: 746318582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 795
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282bbada480ee0f4cb7149933a168b86
+      internalID: 1040441937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 795
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a164407872595344c816b4a180da0a0c
+      internalID: -47076271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 795
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef9bac95f99c6945aa9b90e4b5e1feb
+      internalID: 108311992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_13
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 795
+        width: 118
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5009b22fc887234f8d31637b89e6798
+      internalID: -393429096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_14
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 795
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1badd341eb5f9458213364218dbd86
+      internalID: -1693775045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_15
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 795
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2154c424f15ebb942b68774d843ca0ef
+      internalID: -501639505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e32762e0214994ebb4026b649446b0
+      internalID: -1252149381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3519e05aa271cdd4d93a72bf3fbf7960
+      internalID: 1523811431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b66dc3a1cd03a84a990d2897294739d
+      internalID: 697854708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cfb1d78e286e64b9fdc8371525b190
+      internalID: 669777381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb78b65c18f4a4f8b5f78df2da7bdb
+      internalID: -862504267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecdf0b9315004345b978897735f97c5
+      internalID: -723323433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_22
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3339db53d37fd3e4f8b87cd11988c731
+      internalID: 10008024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_23
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 668
+        width: 121
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa5afd2890da74391bb7d002e0ba23
+      internalID: -809427073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 535
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f0452e12646448a364ae15485e093
+      internalID: 350796924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 535
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a86bf1fd967995419e87a5e1148338e
+      internalID: -299906657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 535
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21c068d78c2e442b61c8f39eda8dbe
+      internalID: 558333806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 535
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf672092ae7472641a7fca6b1ce24fd1
+      internalID: -1696008638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 536
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c29e906ab196a4ea38e3b55b88cd8d
+      internalID: 643703775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_29
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 536
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84b2fcdfb36cc843b4b1f89525215f3
+      internalID: 1610310742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_30
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 536
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10227da6d51039940b5bc2b3f554ec9d
+      internalID: 1259404287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 536
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a70cad6f65204cb9a605f6630fd2e
+      internalID: -185451806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062673db960944d43b0664e300c1168c
+      internalID: 1136015630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 408
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f3e1b364971440b79495bed1efc55
+      internalID: -974089571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 408
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1cf1761bc5a5f4fbe645db0548f15e
+      internalID: 560646042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 408
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2034b430cd7d67e4d9ba8238e0916e36
+      internalID: 235767801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_36
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 410
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ad9938b8c02c144b34a9c29c75979d
+      internalID: 160333792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_37
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 416
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2553b3ddd5cf1034996420cd046e3aba
+      internalID: -86367318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_38
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 412
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fb679b65379c747af710b15a2348aa
+      internalID: 1825645852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 407
+        width: 125
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ffb68225040d74787f498539d6d1bb
+      internalID: -767196433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 280
+        width: 124
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f686c1067b3f22342a59a2717eb763b3
+      internalID: 1733193737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 282
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134f910f1f379a4aa301e7b563c6b85
+      internalID: -21732548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 276
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844e04389b56d984582ad76b96b0bb3b
+      internalID: -1961673839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_43
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 276
+        width: 125
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7ad5b0099d5d34e91369dfe794ee59
+      internalID: 1952753156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 283
+        width: 121
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20d6d89ed83fe74da6b451986129d2d
+      internalID: -1227916762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 276
+        width: 124
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f3841aa2177843bf778071a81268b
+      internalID: 26290367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 3 - Battle Princess of Arcadias - Sword Icons_46
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 275
+        width: 121
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bdcffd48e27064d926f4fa3d18b775
+      internalID: -847407602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_0: 1303886231
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_1: -1762009110
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_10: 1040441937
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_11: -47076271
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_12: 108311992
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_13: -393429096
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_14: -1693775045
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_15: -501639505
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_16: -1252149381
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_17: 1523811431
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_18: 697854708
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_19: 669777381
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_2: 416500549
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_20: -862504267
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_21: -723323433
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_22: 10008024
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_23: -809427073
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_24: 350796924
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_25: -299906657
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_26: 558333806
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_27: -1696008638
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_28: 643703775
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_29: 1610310742
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_3: 1793345545
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_30: 1259404287
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_31: -185451806
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_32: 1136015630
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_33: -974089571
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_34: 560646042
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_35: 235767801
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_36: 160333792
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_37: -86367318
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_38: 1825645852
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_39: -767196433
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_4: -753638555
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_40: 1733193737
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_41: -21732548
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_42: -1961673839
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_43: 1952753156
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_44: -1227916762
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_45: 26290367
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_46: -847407602
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_5: 1920140127
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_6: 139978868
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_7: -1206574396
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_8: -2071841670
+      PlayStation 3 - Battle Princess of Arcadias - Sword Icons_9: 746318582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

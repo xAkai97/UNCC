@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3861fc751de55724baa4ff6957683986
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Varino
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9195deb53f44f8642b7ba730de7b6b66, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

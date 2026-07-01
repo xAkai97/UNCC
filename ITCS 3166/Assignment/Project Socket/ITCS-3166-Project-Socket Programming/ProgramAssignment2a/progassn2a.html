@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML><HEAD><TITLE>Email Lab</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><LINK 
+href="Email Lab_files/styles.css" type=text/css rel=stylesheet>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<STYLE type=text/css>
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 19pt; COLOR: #A77C46; FONT-FAMILY: Arial, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #A77C46; FONT-FAMILY: Arial, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #A77C46; FONT-FAMILY: Arial, sans-serif
+}
+P {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif
+}
+
+UL, OL {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif
+}
+A:link {
+	COLOR: #000066
+}
+A:visited {
+	COLOR: #666666
+}
+</STYLE>
+</HEAD>
+<BODY>
+<H1 style="text-align: left">
+
+ Programming Assignment 2a: Mail User Agent- Simplified Version</font>
+</H1>
+<H1 style="text-align: left">This lab is divided into two parts. In the first part, you use telnet to 
+manually send mail through an SMTP mail server. In the second part, you write a 
+Java program that performs the same action.</H1>
+<H2>Part 1: Sending Email with Telnet</font></H2>When you do this lab, you should try 
+to send email to yourself. This means you need to know the host name of the mail 
+server for your mail domain. To find out this information, you can query DNS for 
+the MX record that maintains information about your mail domain. For example,&nbsp; 
+bob@someschool.edu has mail domain <i>someschool.edu</i>. The 
+following command queries DNS for the mail servers responsible for delivering 
+mail to this domain: <PRE><font color="#000000">nslookup -type=MX someschool.edu</font>
+</PRE>For the response to this command, there may be several mail 
+servers that will deliver mail to mailboxes in the domain <I>someschool.edu</I>. 
+Suppose that the name of one of them is <I>mx1.someschool.edu</I>. In this case, the 
+following command will establish a TCP connection to this mail server. (Notice 
+that the port number 25 is specified on the command line.) <PRE><font color="#000000">telnet mx1.someschol.edu 25</font>
+</PRE>At this point, the telnet program will allow you to enter SMTP commands, 
+and will display the responses from the mail server. For example, the following 
+sequence of commands would send email to bob from alice <PRE><font color="#000000">HELO alice
+MAIL FROM: &lt;alice@crepes.fr&gt;
+RCPT TO: &lt;bob@someschool.edu&gt;
+DATA
+SUBJECT: hello
+
+Hi Bob, How's the weather? Alice.
+.
+QUIT</font>
+</PRE>The SMTP protocol was originally designed to allow people to manually 
+interact with mail servers in a conversational manner. For this reason, if you 
+enter a command with incorrect syntax, or with unacceptable arguments, the 
+server will return a message stating this, and will allow you to try again. 
+<BR><BR>To complete this part of the lab, you should send an email message to 
+yourself and verify that it was delivered. 
+<H2>Part 2: Sending Email with Java</H2>Java provides an API for interacting 
+with the Internet mail system, which is called JavaMail. However, we will not be 
+using this API, because it hides the details of SMTP and socket programming. 
+Instead, you should write a Java program that establishes a TCP connection with 
+a mail server through the socket interface, and sends an email message. 
+<BR><BR>You can place all of your code into the main method of a class called 
+<I>EmailSender</I>. Run your program with the following simple command: <PRE><font color="#000000">java EmailSender</font>
+</PRE>This means you will include in your code the details of the particular 
+email message you are trying to send. 
+<p>Here is a skeleton of the code you'll need to write:</p>
+<pre><font color="#800000">import java.io.*;
+import java.net.*;
+
+public class EmailSender
+{
+   public static void main(String[] args) throws Exception
+   {
+      // Establish a TCP connection with the mail server.
+      
+
+      // Create a BufferedReader to read a line at a time.
+      InputStream is = socket.getInputStream();
+      InputStreamReader isr = new InputStreamReader(is);
+      BufferedReader br = new BufferedReader(isr);
+
+      // Read greeting from the server.
+      String response = br.readLine();
+      System.out.println(response);
+      if (!response.startsWith(&quot;220&quot;)) {
+         throw new Exception(&quot;220 reply not received from server.&quot;);
+      }
+
+      // Get a reference to the socket's output stream.
+      OutputStream os = socket.getOutputStream();
+
+      // Send HELO command and get server response.
+      String command = &quot;HELO alice\r\n&quot;;
+      System.out.print(command);
+      os.write(command.getBytes(&quot;US-ASCII&quot;));
+      response = br.readLine();
+      System.out.println(response);
+      if (!response.startsWith(&quot;250&quot;)) {
+         throw new Exception(&quot;250 reply not received from server.&quot;);
+      }
+
+      // Send MAIL FROM command.
+      
+
+      // Send RCPT TO command.
+      
+
+      // Send DATA command.
+      
+
+      // Send message data.</font></pre>
+<pre><font color="#800000">      
+      // End with line with a single period.
+      
+
+      // Send QUIT command.
+      
+   }
+}</font><font color="#800080">
+</font></pre>
+ </BODY></HTML>

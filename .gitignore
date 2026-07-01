@@ -70,3 +70,24 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/ITCS 4230/Final Project/Cyber 1/Library
+/ITCS 4230/Final Project/Cyber 1/Logs
+/ITCS 4230/Final Project/Cyber 1/obj
+/ITCS 4230/Final Project/Cyber 1/UserSettings
+
+# --- NetBeans Specific Exclusions ---
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+
+# --- Compiled Source and Artifacts ---
+**/build/
+**/dist/
+
+# --- Other common JVM/Editor artifacts ---
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+Thumbs.db
